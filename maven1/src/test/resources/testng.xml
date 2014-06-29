@@ -2,19 +2,22 @@
   <test name="Test1">
   <parameter name="browser" value="FF" />  //to pass the input to the java class
    <classes> 
-          <class name="simple.Test1"/>   //1 hello is package name and ParallelExecution is class name 
+          
+          <class name="simple.FacebookTest"/>   //1 hello is package name and ParallelExecution is class name 
    </classes>
   </test> 
   <test name="Test2">
   <parameter name="browser" value="IE" />
    <classes> 
-          <class name="simple.Test1"/> //here hello is package name and ParallelExecution is class name 
+         
+          <class name="simple.FacebookTest"/> //here hello is package name and ParallelExecution is class name 
    </classes>
     </test> 
     <test name="Test3">
   <parameter name="browser" value="CH" />  //to pass the input to the java class
    <classes> 
-          <class name="simple.Test1"/>   //1 hello is package name and ParallelExecution is class name 
+          
+          <class name="simple.FacebookTest"/>   //1 hello is package name and ParallelExecution is class name 
    </classes>
   </test> 
  

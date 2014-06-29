@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="3" total="21" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="16981" started-at="2014-06-29T06:59:29Z" finished-at="2014-06-29T06:59:46Z">
+  <suite name="Suite1" duration-ms="210858" started-at="2014-06-29T08:15:10Z" finished-at="2014-06-29T08:18:40Z">
     <groups>
     </groups>
-    <test name="Test2" duration-ms="10932" started-at="2014-06-29T06:59:29Z" finished-at="2014-06-29T06:59:40Z">
-      <class name="simple.Test1">
-        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.Test1@c8c892]" name="openBroswer" is-config="true" duration-ms="4029" started-at="2014-06-29T12:29:29Z" finished-at="2014-06-29T12:29:33Z">
+    <test name="Test2" duration-ms="111745" started-at="2014-06-29T08:15:10Z" finished-at="2014-06-29T08:17:01Z">
+      <class name="simple.FacebookTest">
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@37c533]" name="openBroswer" is-config="true" duration-ms="3846" started-at="2014-06-29T13:45:10Z" finished-at="2014-06-29T13:45:13Z">
           <params>
             <param index="0">
               <value>
@@ -18,47 +18,140 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBroswer -->
-        <test-method status="PASS" signature="Test1()[pri:0, instance:simple.Test1@c8c892]" name="Test1" duration-ms="6844" started-at="2014-06-29T12:29:33Z" finished-at="2014-06-29T12:29:40Z">
+        <test-method status="PASS" signature="TitleCheck()[pri:0, instance:simple.FacebookTest@37c533]" name="TitleCheck" duration-ms="2806" started-at="2014-06-29T13:45:13Z" finished-at="2014-06-29T13:45:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method status="FAIL" signature="closeBrowser()[pri:0, instance:simple.Test1@c8c892]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2014-06-29T12:29:40Z" finished-at="2014-06-29T12:29:40Z">
-          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+        </test-method> <!-- TitleCheck -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@37c533]" name="closeBrowser" is-config="true" duration-ms="4706" started-at="2014-06-29T13:45:16Z" finished-at="2014-06-29T13:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@37c533]" name="openBroswer" is-config="true" duration-ms="2208" started-at="2014-06-29T13:45:21Z" finished-at="2014-06-29T13:45:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="enterTextbox()[pri:0, instance:simple.FacebookTest@37c533]" name="enterTextbox" duration-ms="4473" started-at="2014-06-29T13:45:23Z" finished-at="2014-06-29T13:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTextbox -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@37c533]" name="closeBrowser" is-config="true" duration-ms="1113" started-at="2014-06-29T13:45:28Z" finished-at="2014-06-29T13:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@37c533]" name="openBroswer" is-config="true" duration-ms="2233" started-at="2014-06-29T13:45:29Z" finished-at="2014-06-29T13:45:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="chooseBday()[pri:0, instance:simple.FacebookTest@37c533]" name="chooseBday" duration-ms="5628" started-at="2014-06-29T13:45:31Z" finished-at="2014-06-29T13:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseBday -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@37c533]" name="closeBrowser" is-config="true" duration-ms="1087" started-at="2014-06-29T13:45:37Z" finished-at="2014-06-29T13:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@37c533]" name="openBroswer" is-config="true" duration-ms="2184" started-at="2014-06-29T13:45:38Z" finished-at="2014-06-29T13:45:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="selectSex()[pri:0, instance:simple.FacebookTest@37c533]" name="selectSex" duration-ms="11371" started-at="2014-06-29T13:45:40Z" finished-at="2014-06-29T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSex -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@37c533]" name="closeBrowser" is-config="true" duration-ms="1139" started-at="2014-06-29T13:45:51Z" finished-at="2014-06-29T13:45:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@37c533]" name="openBroswer" is-config="true" duration-ms="2735" started-at="2014-06-29T13:45:52Z" finished-at="2014-06-29T13:45:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="selectchkbox()[pri:0, instance:simple.FacebookTest@37c533]" name="selectchkbox" duration-ms="3518" started-at="2014-06-29T13:45:55Z" finished-at="2014-06-29T13:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectchkbox -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@37c533]" name="closeBrowser" is-config="true" duration-ms="1125" started-at="2014-06-29T13:45:59Z" finished-at="2014-06-29T13:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@37c533]" name="openBroswer" is-config="true" duration-ms="1815" started-at="2014-06-29T13:46:00Z" finished-at="2014-06-29T13:46:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="FAIL" signature="navigateLink()[pri:0, instance:simple.FacebookTest@37c533]" name="navigateLink" duration-ms="8103" started-at="2014-06-29T13:46:02Z" finished-at="2014-06-29T13:46:10Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[session 59baffc7-5789-428e-9bd3-d5ac37ff5522 does not exist
-Command duration or timeout: 5 milliseconds
+              <![CDATA[Unable to find element with xpath == .//*[@id='content']/div/div[1]/div[1]/div[1]/h2 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 360 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
 System info: host: 'acer-PC', ip: '192.168.15.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
-Session ID: 59baffc7-5789-428e-9bd3-d5ac37ff5522
+Session ID: 95aa0257-1b88-4e0c-970d-3bff657034ca
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=8, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:5970/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]]]>
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=8, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:11508/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: session 59baffc7-5789-428e-9bd3-d5ac37ff5522 does not exist
-Command duration or timeout: 5 milliseconds
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == .//*[@id='content']/div/div[1]/div[1]/div[1]/h2 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 360 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
 System info: host: 'acer-PC', ip: '192.168.15.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
-Session ID: 59baffc7-5789-428e-9bd3-d5ac37ff5522
+Session ID: 95aa0257-1b88-4e0c-970d-3bff657034ca
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=8, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:5970/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=8, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:11508/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:162)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:463)
-	at simple.BaseBrowser.closeBrowser(BaseBrowser.java:48)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at simple.FacebookTest.navigateLink(FacebookTest.java:116)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
@@ -75,38 +168,38 @@ Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0
 	at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateLink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@37c533]" name="closeBrowser" is-config="true" duration-ms="1081" started-at="2014-06-29T13:46:10Z" finished-at="2014-06-29T13:46:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- simple.Test1 -->
-    </test> <!-- Test2 -->
-    <test name="Test1" duration-ms="14878" started-at="2014-06-29T06:59:29Z" finished-at="2014-06-29T06:59:44Z">
-      <class name="simple.Test1">
-        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.Test1@13dd5ec]" name="openBroswer" is-config="true" duration-ms="8079" started-at="2014-06-29T12:29:29Z" finished-at="2014-06-29T12:29:37Z">
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@37c533]" name="openBroswer" is-config="true" duration-ms="2231" started-at="2014-06-29T13:46:11Z" finished-at="2014-06-29T13:46:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[FF]]>
+                <![CDATA[IE]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBroswer -->
-        <test-method status="PASS" signature="Test1()[pri:0, instance:simple.Test1@13dd5ec]" name="Test1" duration-ms="6503" started-at="2014-06-29T12:29:37Z" finished-at="2014-06-29T12:29:44Z">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:simple.FacebookTest@37c533]" name="validLogin" duration-ms="47196" started-at="2014-06-29T13:46:13Z" finished-at="2014-06-29T13:47:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.Test1@13dd5ec]" name="closeBrowser" is-config="true" duration-ms="268" started-at="2014-06-29T12:29:44Z" finished-at="2014-06-29T12:29:44Z">
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@37c533]" name="closeBrowser" is-config="true" duration-ms="1096" started-at="2014-06-29T13:47:00Z" finished-at="2014-06-29T13:47:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- simple.Test1 -->
-    </test> <!-- Test1 -->
-    <test name="Test3" duration-ms="16969" started-at="2014-06-29T06:59:29Z" finished-at="2014-06-29T06:59:46Z">
-      <class name="simple.Test1">
-        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.Test1@3017cd]" name="openBroswer" is-config="true" duration-ms="2611" started-at="2014-06-29T12:29:29Z" finished-at="2014-06-29T12:29:32Z">
+      </class> <!-- simple.FacebookTest -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="153409" started-at="2014-06-29T08:15:10Z" finished-at="2014-06-29T08:17:43Z">
+      <class name="simple.FacebookTest">
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@e8d9a5]" name="openBroswer" is-config="true" duration-ms="2758" started-at="2014-06-29T13:45:10Z" finished-at="2014-06-29T13:45:12Z">
           <params>
             <param index="0">
               <value>
@@ -117,49 +210,144 @@ Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBroswer -->
-        <test-method status="PASS" signature="Test1()[pri:0, instance:simple.Test1@3017cd]" name="Test1" duration-ms="14019" started-at="2014-06-29T12:29:32Z" finished-at="2014-06-29T12:29:46Z">
+        <test-method status="PASS" signature="TitleCheck()[pri:0, instance:simple.FacebookTest@e8d9a5]" name="TitleCheck" duration-ms="6120" started-at="2014-06-29T13:45:12Z" finished-at="2014-06-29T13:45:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method status="FAIL" signature="closeBrowser()[pri:0, instance:simple.Test1@3017cd]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2014-06-29T12:29:46Z" finished-at="2014-06-29T12:29:46Z">
-          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+        </test-method> <!-- TitleCheck -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@e8d9a5]" name="closeBrowser" is-config="true" duration-ms="3283" started-at="2014-06-29T13:45:18Z" finished-at="2014-06-29T13:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@e8d9a5]" name="openBroswer" is-config="true" duration-ms="1751" started-at="2014-06-29T13:45:22Z" finished-at="2014-06-29T13:45:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="enterTextbox()[pri:0, instance:simple.FacebookTest@e8d9a5]" name="enterTextbox" duration-ms="5878" started-at="2014-06-29T13:45:24Z" finished-at="2014-06-29T13:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTextbox -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@e8d9a5]" name="closeBrowser" is-config="true" duration-ms="2846" started-at="2014-06-29T13:45:29Z" finished-at="2014-06-29T13:45:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@e8d9a5]" name="openBroswer" is-config="true" duration-ms="1416" started-at="2014-06-29T13:45:32Z" finished-at="2014-06-29T13:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="chooseBday()[pri:0, instance:simple.FacebookTest@e8d9a5]" name="chooseBday" duration-ms="15512" started-at="2014-06-29T13:45:34Z" finished-at="2014-06-29T13:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseBday -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@e8d9a5]" name="closeBrowser" is-config="true" duration-ms="3080" started-at="2014-06-29T13:45:49Z" finished-at="2014-06-29T13:45:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@e8d9a5]" name="openBroswer" is-config="true" duration-ms="1868" started-at="2014-06-29T13:45:52Z" finished-at="2014-06-29T13:45:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="selectSex()[pri:0, instance:simple.FacebookTest@e8d9a5]" name="selectSex" duration-ms="6812" started-at="2014-06-29T13:45:54Z" finished-at="2014-06-29T13:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSex -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@e8d9a5]" name="closeBrowser" is-config="true" duration-ms="3125" started-at="2014-06-29T13:46:01Z" finished-at="2014-06-29T13:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@e8d9a5]" name="openBroswer" is-config="true" duration-ms="1454" started-at="2014-06-29T13:46:04Z" finished-at="2014-06-29T13:46:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="selectchkbox()[pri:0, instance:simple.FacebookTest@e8d9a5]" name="selectchkbox" duration-ms="8504" started-at="2014-06-29T13:46:06Z" finished-at="2014-06-29T13:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectchkbox -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@e8d9a5]" name="closeBrowser" is-config="true" duration-ms="3255" started-at="2014-06-29T13:46:14Z" finished-at="2014-06-29T13:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@e8d9a5]" name="openBroswer" is-config="true" duration-ms="1818" started-at="2014-06-29T13:46:17Z" finished-at="2014-06-29T13:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="FAIL" signature="navigateLink()[pri:0, instance:simple.FacebookTest@e8d9a5]" name="navigateLink" duration-ms="34747" started-at="2014-06-29T13:46:19Z" finished-at="2014-06-29T13:46:54Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such session
+              <![CDATA[no such element
+  (Session info: chrome=35.0.1916.153)
   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 314 milliseconds
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
 System info: host: 'acer-PC', ip: '192.168.15.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
-Session ID: f815350d3886e55489422490f91cf357
+Session ID: 52a1fe8e69f4800b031b39d8d48dd893
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\NewUser\AppData\Local\Temp\scoped_dir5252_132}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]]]>
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\NewUser\AppData\Local\Temp\scoped_dir2284_18097}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: no such session
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=35.0.1916.153)
   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 314 milliseconds
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
 System info: host: 'acer-PC', ip: '192.168.15.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
-Session ID: f815350d3886e55489422490f91cf357
+Session ID: 52a1fe8e69f4800b031b39d8d48dd893
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\NewUser\AppData\Local\Temp\scoped_dir5252_132}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\NewUser\AppData\Local\Temp\scoped_dir2284_18097}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:162)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:463)
-	at simple.BaseBrowser.closeBrowser(BaseBrowser.java:48)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at simple.FacebookTest.navigateLink(FacebookTest.java:127)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
@@ -176,11 +364,235 @@ Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browser
 	at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateLink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@e8d9a5]" name="closeBrowser" is-config="true" duration-ms="3100" started-at="2014-06-29T13:46:54Z" finished-at="2014-06-29T13:46:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- simple.Test1 -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@e8d9a5]" name="openBroswer" is-config="true" duration-ms="2137" started-at="2014-06-29T13:46:57Z" finished-at="2014-06-29T13:46:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:simple.FacebookTest@e8d9a5]" name="validLogin" duration-ms="40976" started-at="2014-06-29T13:46:59Z" finished-at="2014-06-29T13:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@e8d9a5]" name="closeBrowser" is-config="true" duration-ms="2942" started-at="2014-06-29T13:47:40Z" finished-at="2014-06-29T13:47:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- simple.FacebookTest -->
     </test> <!-- Test3 -->
+    <test name="Test1" duration-ms="210858" started-at="2014-06-29T08:15:10Z" finished-at="2014-06-29T08:18:40Z">
+      <class name="simple.FacebookTest">
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@147c4ee]" name="openBroswer" is-config="true" duration-ms="8809" started-at="2014-06-29T13:45:10Z" finished-at="2014-06-29T13:45:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="TitleCheck()[pri:0, instance:simple.FacebookTest@147c4ee]" name="TitleCheck" duration-ms="7057" started-at="2014-06-29T13:45:18Z" finished-at="2014-06-29T13:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleCheck -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@147c4ee]" name="closeBrowser" is-config="true" duration-ms="202" started-at="2014-06-29T13:45:25Z" finished-at="2014-06-29T13:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@147c4ee]" name="openBroswer" is-config="true" duration-ms="11403" started-at="2014-06-29T13:45:26Z" finished-at="2014-06-29T13:45:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="enterTextbox()[pri:0, instance:simple.FacebookTest@147c4ee]" name="enterTextbox" duration-ms="11392" started-at="2014-06-29T13:45:37Z" finished-at="2014-06-29T13:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTextbox -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@147c4ee]" name="closeBrowser" is-config="true" duration-ms="477" started-at="2014-06-29T13:45:48Z" finished-at="2014-06-29T13:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@147c4ee]" name="openBroswer" is-config="true" duration-ms="10595" started-at="2014-06-29T13:45:49Z" finished-at="2014-06-29T13:46:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="chooseBday()[pri:0, instance:simple.FacebookTest@147c4ee]" name="chooseBday" duration-ms="14416" started-at="2014-06-29T13:46:00Z" finished-at="2014-06-29T13:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseBday -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@147c4ee]" name="closeBrowser" is-config="true" duration-ms="736" started-at="2014-06-29T13:46:14Z" finished-at="2014-06-29T13:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@147c4ee]" name="openBroswer" is-config="true" duration-ms="7137" started-at="2014-06-29T13:46:15Z" finished-at="2014-06-29T13:46:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="selectSex()[pri:0, instance:simple.FacebookTest@147c4ee]" name="selectSex" duration-ms="22465" started-at="2014-06-29T13:46:22Z" finished-at="2014-06-29T13:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSex -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@147c4ee]" name="closeBrowser" is-config="true" duration-ms="272" started-at="2014-06-29T13:46:44Z" finished-at="2014-06-29T13:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@147c4ee]" name="openBroswer" is-config="true" duration-ms="19692" started-at="2014-06-29T13:46:45Z" finished-at="2014-06-29T13:47:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="selectchkbox()[pri:0, instance:simple.FacebookTest@147c4ee]" name="selectchkbox" duration-ms="41048" started-at="2014-06-29T13:47:04Z" finished-at="2014-06-29T13:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectchkbox -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@147c4ee]" name="closeBrowser" is-config="true" duration-ms="196" started-at="2014-06-29T13:47:45Z" finished-at="2014-06-29T13:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@147c4ee]" name="openBroswer" is-config="true" duration-ms="4959" started-at="2014-06-29T13:47:45Z" finished-at="2014-06-29T13:47:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="FAIL" signature="navigateLink()[pri:0, instance:simple.FacebookTest@147c4ee]" name="navigateLink" duration-ms="12354" started-at="2014-06-29T13:47:50Z" finished-at="2014-06-29T13:48:03Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"id","selector":"q_dashboard"}
+Command duration or timeout: 1.19 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'acer-PC', ip: '192.168.15.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Session ID: 0d226e35-7155-409e-9c49-44bfaa61dcde
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=29.0.1}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"q_dashboard"}
+Command duration or timeout: 1.19 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'acer-PC', ip: '192.168.15.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Session ID: 0d226e35-7155-409e-9c49-44bfaa61dcde
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=29.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at simple.FacebookTest.navigateLink(FacebookTest.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"id","selector":"q_dashboard"}
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'acer-PC', ip: '192.168.15.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous7310803840137551747webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9470)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous7310803840137551747webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9479)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous7310803840137551747webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11455)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous7310803840137551747webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11460)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous7310803840137551747webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11402)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateLink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@147c4ee]" name="closeBrowser" is-config="true" duration-ms="164" started-at="2014-06-29T13:48:03Z" finished-at="2014-06-29T13:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:simple.FacebookTest@147c4ee]" name="openBroswer" is-config="true" duration-ms="5082" started-at="2014-06-29T13:48:03Z" finished-at="2014-06-29T13:48:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:simple.FacebookTest@147c4ee]" name="validLogin" duration-ms="32136" started-at="2014-06-29T13:48:08Z" finished-at="2014-06-29T13:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:simple.FacebookTest@147c4ee]" name="closeBrowser" is-config="true" duration-ms="243" started-at="2014-06-29T13:48:40Z" finished-at="2014-06-29T13:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- simple.FacebookTest -->
+    </test> <!-- Test1 -->
   </suite> <!-- Suite1 -->
 </testng-results>
