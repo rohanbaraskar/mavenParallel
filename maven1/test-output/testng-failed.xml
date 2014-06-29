@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="browser" value="CH"/>
+  <test name="Test2(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="simple.FacebookTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="validLogin"/>
+          <include name="openBroswer"/>
+          <include name="openBroswer"/>
+          <include name="openBroswer"/>
+        </methods>
+      </class> <!-- simple.FacebookTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="Test3(failed)" parallel="tests">
+    <parameter name="browser" value="CH"/>
+    <classes>
+      <class name="simple.FacebookTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="navigateLink"/>
+          <include name="openBroswer"/>
+          <include name="openBroswer"/>
+          <include name="openBroswer"/>
+        </methods>
+      </class> <!-- simple.FacebookTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test name="Test1(failed)" parallel="tests">
+    <parameter name="browser" value="FF"/>
+    <classes>
+      <class name="simple.FacebookTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="validLogin"/>
+          <include name="navigateLink"/>
+          <include name="openBroswer"/>
+          <include name="openBroswer"/>
+          <include name="openBroswer"/>
+        </methods>
+      </class> <!-- simple.FacebookTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

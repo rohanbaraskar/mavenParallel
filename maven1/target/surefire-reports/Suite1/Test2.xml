@@ -1,25 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="acer-PC" name="simple.Test1" tests="1" failures="0" timestamp="29 Jun 2014 07:06:25 GMT" time="14.98" errors="0">
-  <testcase name="@AfterMethod closeBrowser" time="0.0" classname="simple.Test1">
-    <failure type="org.openqa.selenium.remote.SessionNotFoundException" message="Session ID is null. Using WebDriver after calling quit()?
+<testsuite hostname="acer-PC" name="simple.FacebookTest" tests="7" failures="1" timestamp="29 Jun 2014 09:11:19 GMT" time="78.764" errors="0">
+  <testcase name="@BeforeMethod openBroswer" time="0.0" classname="simple.FacebookTest">
+    <failure type="org.openqa.selenium.remote.SessionNotFoundException" message="Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070005 (&amp;apos;Access is denied.&amp;apos;) for URL &amp;apos;http://localhost:26879/&amp;apos; (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.18 seconds
 Build info: version: &amp;apos;2.42.2&amp;apos;, revision: &amp;apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&amp;apos;, time: &amp;apos;2014-06-03 10:52:47&amp;apos;
 System info: host: &amp;apos;acer-PC&amp;apos;, ip: &amp;apos;192.168.15.1&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.7.0_55&amp;apos;
-Driver info: driver.version: RemoteWebDriver">
-      <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver">
+      <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070005 ('Access is denied.') for URL 'http://localhost:26879/' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.18 seconds
 Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
 System info: host: 'acer-PC', ip: '192.168.15.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:147)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:463)
-	at simple.BaseBrowser.closeBrowser(BaseBrowser.java:48)
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:162)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:225)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:182)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:174)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:146)
+	at simple.BaseBrowser.openBroswer(BaseBrowser.java:31)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-... Removed 19 stack frames]]>
+... Removed 23 stack frames]]>
     </failure>
   </testcase>
-  <testcase name="Test1" time="7.91" classname="simple.Test1"/>
+  <testcase name="@AfterMethod closeBrowser" time="0.0" classname="simple.FacebookTest">
+    <skipped/>
+  </testcase>
+  <testcase name="TitleCheck" time="5.693" classname="simple.FacebookTest"/>
+  <testcase name="enterTextbox" time="5.319" classname="simple.FacebookTest"/>
+  <testcase name="chooseBday" time="7.156" classname="simple.FacebookTest"/>
+  <testcase name="selectSex" time="8.27" classname="simple.FacebookTest"/>
+  <testcase name="selectchkbox" time="9.509" classname="simple.FacebookTest"/>
+  <testcase name="navigateLink" time="13.7" classname="simple.FacebookTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to find element with id == q_dashboard (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 307 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.42.2&amp;apos;, revision: &amp;apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&amp;apos;, time: &amp;apos;2014-06-03 10:52:47&amp;apos;
+System info: host: &amp;apos;acer-PC&amp;apos;, ip: &amp;apos;192.168.15.1&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.7.0_55&amp;apos;
+Session ID: 5d28430e-b35c-43fd-b950-c42d84af924f
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=8, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:23956/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with id == q_dashboard (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 307 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'acer-PC', ip: '192.168.15.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Session ID: 5d28430e-b35c-43fd-b950-c42d84af924f
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=8, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:23956/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at simple.FacebookTest.navigateLink(FacebookTest.java:127)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 21 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="validLogin" time="0.0" classname="simple.FacebookTest">
+    <skipped/>
+  </testcase>
 </testsuite>

@@ -29,80 +29,140 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Test1</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">18.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
-<tr class="stripe"><td style="text-align:left;padding-right:2em">Test2</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">15.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
-<tr><td style="text-align:left;padding-right:2em">Test3</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">15.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test1</td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">150.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Test2</td><td class="numi">5</td><td class="numi">5</td><td class="numi_attn">1</td><td class="numi_attn">1</td><td class="numi">78.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test3</td><td class="numi">6</td><td class="numi">6</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">128.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 <tr class="total"><td>Total</td>
-<td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi">0</td><td class="numi">18.0 seconds</td><td colspan="2">&nbsp;</td></tr>
+<td class="numi">16</td><td class="numi">16</td><td class="numi_attn">1</td><td class="numi_attn">4</td><td class="numi">150.9 seconds</td><td colspan="2">&nbsp;</td></tr>
 </table>
 <a id="summary"></a>
 <table cellspacing=0 cellpadding=0 class="passed">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
-<tr><th colspan="4">Test1 &#8212; failed (configuration methods)</th></tr>
-<tr class="failedodd"><td rowspan="1">simple.Test1<td><a href="#m1"><b>closeBrowser</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test1 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="2">simple.FacebookTest<td><a href="#m1"><b>validLogin</b>  </a></td><td class="numi">1</td><td class="numi">9397</td></tr><tr class="failedodd"><td><a href="#m2"><b>navigateLink</b>  </a></td><td class="numi">1</td><td class="numi">29414</td></tr>
 <tr><th colspan="4">Test1 &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">simple.Test1<td><a href="#m2"><b>Test1</b>  </a></td><td class="numi">1</td><td class="numi">4695</td></tr>
+<tr class="passedodd"><td rowspan="5">simple.FacebookTest<td><a href="#m3"><b>selectSex</b>  </a></td><td class="numi">1</td><td class="numi">10444</td></tr><tr class="passedodd"><td><a href="#m4"><b>TitleCheck</b>  </a></td><td class="numi">1</td><td class="numi">6214</td></tr><tr class="passedodd"><td><a href="#m5"><b>selectchkbox</b>  </a></td><td class="numi">1</td><td class="numi">6913</td></tr><tr class="passedodd"><td><a href="#m6"><b>enterTextbox</b>  </a></td><td class="numi">1</td><td class="numi">11900</td></tr><tr class="passedodd"><td><a href="#m7"><b>chooseBday</b>  </a></td><td class="numi">1</td><td class="numi">13222</td></tr>
 <tr><th colspan="4">Test2 &#8212; failed (configuration methods)</th></tr>
-<tr class="failedodd"><td rowspan="1">simple.Test1<td><a href="#m3"><b>closeBrowser</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="failedodd"><td rowspan="1">simple.FacebookTest<td><a href="#m8"><b>openBroswer</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test2 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">simple.FacebookTest<td><a href="#m9"><b>navigateLink</b>  </a></td><td class="numi">1</td><td class="numi">13700</td></tr>
+<tr><th colspan="4">Test2 &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">simple.FacebookTest<td><a href="#m10"><b>closeBrowser</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test2 &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">simple.FacebookTest<td><a href="#m11"><b>validLogin</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
 <tr><th colspan="4">Test2 &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">simple.Test1<td><a href="#m4"><b>Test1</b>  </a></td><td class="numi">1</td><td class="numi">7910</td></tr>
-<tr><th colspan="4">Test3 &#8212; failed (configuration methods)</th></tr>
-<tr class="failedodd"><td rowspan="1">simple.Test1<td><a href="#m5"><b>closeBrowser</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="5">simple.FacebookTest<td><a href="#m12"><b>TitleCheck</b>  </a></td><td class="numi">1</td><td class="numi">5693</td></tr><tr class="passedodd"><td><a href="#m13"><b>selectSex</b>  </a></td><td class="numi">1</td><td class="numi">8270</td></tr><tr class="passedodd"><td><a href="#m14"><b>chooseBday</b>  </a></td><td class="numi">1</td><td class="numi">7156</td></tr><tr class="passedodd"><td><a href="#m15"><b>selectchkbox</b>  </a></td><td class="numi">1</td><td class="numi">9509</td></tr><tr class="passedodd"><td><a href="#m16"><b>enterTextbox</b>  </a></td><td class="numi">1</td><td class="numi">5319</td></tr>
+<tr><th colspan="4">Test3 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">simple.FacebookTest<td><a href="#m17"><b>navigateLink</b>  </a></td><td class="numi">1</td><td class="numi">12650</td></tr>
 <tr><th colspan="4">Test3 &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">simple.Test1<td><a href="#m6"><b>Test1</b>  </a></td><td class="numi">1</td><td class="numi">11367</td></tr>
+<tr class="passedodd"><td rowspan="6">simple.FacebookTest<td><a href="#m18"><b>validLogin</b>  </a></td><td class="numi">1</td><td class="numi">28583</td></tr><tr class="passedodd"><td><a href="#m19"><b>selectchkbox</b>  </a></td><td class="numi">1</td><td class="numi">9514</td></tr><tr class="passedodd"><td><a href="#m20"><b>selectSex</b>  </a></td><td class="numi">1</td><td class="numi">13639</td></tr><tr class="passedodd"><td><a href="#m21"><b>chooseBday</b>  </a></td><td class="numi">1</td><td class="numi">8831</td></tr><tr class="passedodd"><td><a href="#m22"><b>enterTextbox</b>  </a></td><td class="numi">1</td><td class="numi">9005</td></tr><tr class="passedodd"><td><a href="#m23"><b>TitleCheck</b>  </a></td><td class="numi">1</td><td class="numi">8550</td></tr>
 </table>
 <h1>Test1</h1>
-<a id="m1"></a><h2>simple.Test1:closeBrowser</h2>
+<a id="m1"></a><h2>simple.FacebookTest:validLogin</h2>
 <div style="padding-left:3em">
-<p>The FirefoxDriver cannot be used after quit() was called.
+<p>Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;pagelet_welcome_box&apos;]/div/div/div/div[2]/a[1]&quot;}
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
 System info: host: &apos;acer-PC&apos;, ip: &apos;192.168.15.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_55&apos;
-Driver info: driver.version: RemoteWebDriver</p>
-org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:359)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:463)
-<br/>at simple.BaseBrowser.closeBrowser(BaseBrowser.java:48)
-<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-<br/>at java.lang.reflect.Method.invoke(Unknown Source)
-<br/>at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-<br/>at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:525)
-<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
-<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:753)
-<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
-<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
-<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
-<br/>at org.testng.TestRunner.privateRun(TestRunner.java:757)
-<br/>at org.testng.TestRunner.run(TestRunner.java:608)
-<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-<br/>at org.testng.SuiteRunner.access$000(SuiteRunner.java:36)
-<br/>at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
-<br/>at org.testng.internal.thread.ThreadUtil$CountDownLatchedRunnable.run(ThreadUtil.java:165)
-<br/>at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-<br/>at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-<br/>at java.lang.Thread.run(Unknown Source)
+Session ID: 91e8f21a-7a42-4208-a46d-56d8af93dd95
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=29.0.1}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at simple.FacebookTest.validLogin(FacebookTest.java:149)
+<br/>21 lines not shown
+<p>Caused by Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;pagelet_welcome_box&apos;]/div/div/div/div[2]/a[1]&quot;}
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
+System info: host: &apos;acer-PC&apos;, ip: &apos;192.168.15.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_55&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous2460471556804150018webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9470)
+<br/>at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous2460471556804150018webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9479)
+<br/>at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous2460471556804150018webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11455)
+<br/>at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous2460471556804150018webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11460)
+<br/>at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous2460471556804150018webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11402)
 <br/>1 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m2"></a><h2>simple.Test1:Test1</h2>
+<a id="m2"></a><h2>simple.FacebookTest:navigateLink</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;q_dashboard&quot;}
+Command duration or timeout: 1.25 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
+System info: host: &apos;acer-PC&apos;, ip: &apos;192.168.15.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_55&apos;
+Session ID: c373e004-4dda-4ca1-b9fe-93208ac4cee0
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=29.0.1}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:214)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at simple.FacebookTest.navigateLink(FacebookTest.java:127)
+<br/>21 lines not shown
+<p>Caused by Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;q_dashboard&quot;}
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
+System info: host: &apos;acer-PC&apos;, ip: &apos;192.168.15.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_55&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous8028210127168538689webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9470)
+<br/>at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous8028210127168538689webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9479)
+<br/>at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous8028210127168538689webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11455)
+<br/>at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous8028210127168538689webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11460)
+<br/>at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous8028210127168538689webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11402)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>simple.FacebookTest:selectSex</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>simple.FacebookTest:TitleCheck</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>simple.FacebookTest:selectchkbox</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>simple.FacebookTest:enterTextbox</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>simple.FacebookTest:chooseBday</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h1>Test2</h1>
-<a id="m3"></a><h2>simple.Test1:closeBrowser</h2>
-<div style="padding-left:3em">
-<p>Session ID is null. Using WebDriver after calling quit()?
+<a id="m8"></a><h2>simple.FacebookTest:openBroswer</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">IE</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070005 (&apos;Access is denied.&apos;) for URL &apos;http://localhost:26879/&apos; (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.18 seconds
 Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
 System info: host: &apos;acer-PC&apos;, ip: &apos;192.168.15.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_55&apos;
-Driver info: driver.version: RemoteWebDriver</p>
-org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:147)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:463)
-<br/>at simple.BaseBrowser.closeBrowser(BaseBrowser.java:48)
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:162)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:225)
+<br/>at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:182)
+<br/>at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:174)
+<br/>at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:146)
+<br/>at simple.BaseBrowser.openBroswer(BaseBrowser.java:31)
 <br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 <br/>at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 <br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -110,7 +170,7 @@ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:
 <br/>at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
 <br/>at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:525)
 <br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
-<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:753)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:613)
 <br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
 <br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
 <br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
@@ -126,48 +186,86 @@ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:
 <br/>at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 <br/>at java.lang.Thread.run(Unknown Source)
 <br/>1 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>simple.FacebookTest:navigateLink</h2>
+<div style="padding-left:3em">
+<p>Unable to find element with id == q_dashboard (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 307 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
+System info: host: &apos;acer-PC&apos;, ip: &apos;192.168.15.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_55&apos;
+Session ID: 5d28430e-b35c-43fd-b950-c42d84af924f
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=8, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:23956/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:214)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at simple.FacebookTest.navigateLink(FacebookTest.java:127)
+<br/>21 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m4"></a><h2>simple.Test1:Test1</h2>
+<a id="m10"></a><h2>simple.FacebookTest:closeBrowser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>simple.FacebookTest:validLogin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>simple.FacebookTest:TitleCheck</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m13"></a><h2>simple.FacebookTest:selectSex</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>simple.FacebookTest:chooseBday</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m15"></a><h2>simple.FacebookTest:selectchkbox</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m16"></a><h2>simple.FacebookTest:enterTextbox</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h1>Test3</h1>
-<a id="m5"></a><h2>simple.Test1:closeBrowser</h2>
+<a id="m17"></a><h2>simple.FacebookTest:navigateLink</h2>
 <div style="padding-left:3em">
-<p>Session ID is null. Using WebDriver after calling quit()?
+<p>no such element
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
 System info: host: &apos;acer-PC&apos;, ip: &apos;192.168.15.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_55&apos;
-Driver info: driver.version: RemoteWebDriver</p>
-org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:147)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:463)
-<br/>at simple.BaseBrowser.closeBrowser(BaseBrowser.java:48)
-<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-<br/>at java.lang.reflect.Method.invoke(Unknown Source)
-<br/>at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-<br/>at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:525)
-<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
-<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:753)
-<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
-<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
-<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
-<br/>at org.testng.TestRunner.privateRun(TestRunner.java:757)
-<br/>at org.testng.TestRunner.run(TestRunner.java:608)
-<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-<br/>at org.testng.SuiteRunner.access$000(SuiteRunner.java:36)
-<br/>at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
-<br/>at org.testng.internal.thread.ThreadUtil$CountDownLatchedRunnable.run(ThreadUtil.java:165)
-<br/>at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-<br/>at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-<br/>at java.lang.Thread.run(Unknown Source)
-<br/>1 lines not shown
+Session ID: 866a35dd09173555a1d9e6881ed7acfb
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\NewUser\AppData\Local\Temp\scoped_dir9280_16781}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:214)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at simple.FacebookTest.navigateLink(FacebookTest.java:127)
+<br/>21 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m6"></a><h2>simple.Test1:Test1</h2>
+<a id="m18"></a><h2>simple.FacebookTest:validLogin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m19"></a><h2>simple.FacebookTest:selectchkbox</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m20"></a><h2>simple.FacebookTest:selectSex</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m21"></a><h2>simple.FacebookTest:chooseBday</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m22"></a><h2>simple.FacebookTest:enterTextbox</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m23"></a><h2>simple.FacebookTest:TitleCheck</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

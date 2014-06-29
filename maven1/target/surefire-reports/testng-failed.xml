@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="browser" value="CH"/>
+  <test name="Test1(failed)" parallel="tests" preserve-order="false">
+    <parameter name="browser" value="FF"/>
+    <classes>
+      <class name="simple.FacebookTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="validLogin"/>
+          <include name="navigateLink"/>
+          <include name="openBroswer"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Test2(failed)" parallel="tests" preserve-order="false">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="simple.FacebookTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="validLogin"/>
+          <include name="navigateLink"/>
+          <include name="openBroswer"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Test3(failed)" parallel="tests" preserve-order="false">
+    <parameter name="browser" value="CH"/>
+    <classes>
+      <class name="simple.FacebookTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="navigateLink"/>
+          <include name="openBroswer"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

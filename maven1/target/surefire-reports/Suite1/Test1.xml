@@ -1,24 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="acer-PC" name="simple.Test1" tests="1" failures="0" timestamp="29 Jun 2014 07:06:28 GMT" time="18.024" errors="0">
-  <testcase name="@AfterMethod closeBrowser" time="0.0" classname="simple.Test1">
-    <failure type="org.openqa.selenium.remote.SessionNotFoundException" message="The FirefoxDriver cannot be used after quit() was called.
+<testsuite hostname="acer-PC" name="simple.FacebookTest" tests="7" failures="2" timestamp="29 Jun 2014 09:12:31 GMT" time="150.862" errors="0">
+  <testcase name="TitleCheck" time="6.214" classname="simple.FacebookTest"/>
+  <testcase name="enterTextbox" time="11.9" classname="simple.FacebookTest"/>
+  <testcase name="chooseBday" time="13.222" classname="simple.FacebookTest"/>
+  <testcase name="selectSex" time="10.444" classname="simple.FacebookTest"/>
+  <testcase name="selectchkbox" time="6.913" classname="simple.FacebookTest"/>
+  <testcase name="navigateLink" time="29.414" classname="simple.FacebookTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;id&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;q_dashboard&amp;quot;}
+Command duration or timeout: 1.25 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &amp;apos;2.42.2&amp;apos;, revision: &amp;apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&amp;apos;, time: &amp;apos;2014-06-03 10:52:47&amp;apos;
 System info: host: &amp;apos;acer-PC&amp;apos;, ip: &amp;apos;192.168.15.1&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.7.0_55&amp;apos;
-Driver info: driver.version: RemoteWebDriver">
-      <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: The FirefoxDriver cannot be used after quit() was called.
+Session ID: c373e004-4dda-4ca1-b9fe-93208ac4cee0
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=29.0.1}]">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"q_dashboard"}
+Command duration or timeout: 1.25 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
 System info: host: 'acer-PC', ip: '192.168.15.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:463)
-	at simple.BaseBrowser.closeBrowser(BaseBrowser.java:48)
+Session ID: c373e004-4dda-4ca1-b9fe-93208ac4cee0
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=29.0.1}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at simple.FacebookTest.navigateLink(FacebookTest.java:127)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-... Removed 19 stack frames]]>
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"id","selector":"q_dashboard"}
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'acer-PC', ip: '192.168.15.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous8028210127168538689webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9470)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous8028210127168538689webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9479)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous8028210127168538689webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11455)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous8028210127168538689webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11460)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous8028210127168538689webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11402)
+... Removed 21 stack frames]]>
     </failure>
   </testcase>
-  <testcase name="Test1" time="4.695" classname="simple.Test1"/>
+  <testcase name="validLogin" time="9.397" classname="simple.FacebookTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;xpath&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;.//*[@id=&amp;apos;pagelet_welcome_box&amp;apos;]/div/div/div/div[2]/a[1]&amp;quot;}
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.42.2&amp;apos;, revision: &amp;apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&amp;apos;, time: &amp;apos;2014-06-03 10:52:47&amp;apos;
+System info: host: &amp;apos;acer-PC&amp;apos;, ip: &amp;apos;192.168.15.1&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.7.0_55&amp;apos;
+Session ID: 91e8f21a-7a42-4208-a46d-56d8af93dd95
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=29.0.1}]">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='pagelet_welcome_box']/div/div/div/div[2]/a[1]"}
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'acer-PC', ip: '192.168.15.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Session ID: 91e8f21a-7a42-4208-a46d-56d8af93dd95
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=29.0.1}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at simple.FacebookTest.validLogin(FacebookTest.java:149)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":".//*[@id='pagelet_welcome_box']/div/div/div/div[2]/a[1]"}
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'acer-PC', ip: '192.168.15.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous2460471556804150018webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9470)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous2460471556804150018webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9479)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous2460471556804150018webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11455)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous2460471556804150018webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11460)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/NewUser/AppData/Local/Temp/anonymous2460471556804150018webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11402)
+... Removed 21 stack frames]]>
+    </failure>
+  </testcase>
 </testsuite>
