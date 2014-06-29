@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="acer-PC" name="simple.Test1" tests="1" failures="0" timestamp="29 Jun 2014 06:51:56 GMT" time="13.619" errors="0">
+  <testcase name="Test1" time="13.607" classname="simple.Test1"/>
+</testsuite>
